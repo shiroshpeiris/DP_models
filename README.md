@@ -8,6 +8,7 @@ The Folders contain the python simulation cases.The ___Exec.py___ will execute t
 2. For the Model that is simulated in CPU, the files are stored in  __(118_CONV_GPU)__
 
 The parameters can be changed or viewed by changing the Excel files that are included in the __(Parameters)__ folders
+The real-time plotting tools use pyQTgraph plotting libraries. For optimal performance gains the plot step should be increased, or the plots may be disabled.
 
 The relevant dependencies to be installed are in the heading of each file and are listed below. They can be installed through __pip__ or __anaconda__ packages. 
 
